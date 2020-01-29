@@ -13,4 +13,4 @@ ActiveRecord::Base.establish_connection(
   :database => "db/artists.sqlite"
 )
 
-require_relative "../01_create_artists.rb"
+require_relative "../db/migrate/01_create_artists.rb"
